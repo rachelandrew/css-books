@@ -1,0 +1,55 @@
+/* This defines styles and classes used in the book */
+body { 
+	margin: 5%; 
+	text-align: justify; 
+	font-size: medium; 
+}
+
+code { 
+	font-family: monospace; 
+}
+
+
+h1.title, h2.author, h3.date { 
+	text-align: center;
+}
+
+ol.toc { 
+	padding: 0; 
+	margin:0; 
+}
+
+ol.toc li { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	line-height: 1.5; 
+}
+
+ol.toc ol {
+	padding-left: 1em;
+}
+
+h1 {
+	border-bottom: 1px solid #999;
+	padding: 0 0 .6em 0;
+}
+
+h1.title {
+	border: 0;
+}
+
+h1,h2,h3,h4,h5 {
+	font-weight: bold;
+	page-break-after: avoid;
+	page-break-inside:avoid;
+	text-align: left;
+}
+
+h1+p, h2+p, h3+p {
+	page-break-before: avoid;
+}
+
+table, figure {
+	page-break-inside: avoid;
+}

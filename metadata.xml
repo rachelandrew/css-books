@@ -1,0 +1,9 @@
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <dc:title id="t1">Productivity Essays</dc:title>
+  <meta refines="#t1" property="title-type">main</meta>
+  <dc:language>en-GB</dc:language>
+  <dc:creator opf:file-as="Andrew, Rachel" opf:role="aut">Rachel Andrew</dc:creator>
+  <dc:publisher>Rachel Andrew</dc:publisher>
+  <dc:date opf:event="publication">2014-07-15</dc:date>
+  <dc:rights>Copyright ©2014 by Rachel Andrew</dc:rights>
+</metadata>
