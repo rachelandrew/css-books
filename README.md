@@ -1,7 +1,7 @@
 css-books
 =========
 
-Example files for building CSS books. Used in my presentation "CSS and Ebooks". Resources and more information about CSS and creating ebooks in a variety of formats can be found on the page for that presentation at http://rachelandrew.co.uk/presentations/css-books.
+Example files for building CSS books. I use these as my starting point and reference them in my presentation [CSS and Ebooks](http://rachelandrew.co.uk/presentations/css-books) and Net Magazine tutorial. Resources and more information about CSS and creating ebooks in a variety of formats can be found on my site [Book Toolkit](http://booktoolkit.com).
 
 ## Using these files
 
@@ -19,7 +19,7 @@ Git clone this repository.
 
 ### Create an EPUB
 
-Change into the css-ebboks directory and at the cli run:
+Change into the css-ebooks directory and at the cli run:
 
     > pandoc -o builds/book.epub book.html --epub-metadata=metadata.xml --toc --toc-depth=2 --epub-cover-image=cover.png --epub-stylesheet=epub-styles.css
 

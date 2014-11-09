@@ -1,4 +1,4 @@
-/* This defines styles and classes used in the book */
+/* This defines styles and classes used in the EPUB and MOBI versions of the book */
 body { 
 	margin: 5%; 
 	text-align: justify; 
@@ -38,6 +38,8 @@ h1 {
 h1.title {
 	border: 0;
 }
+
+/* page-break-before, page-break-after, page-break-inside are used to control where breaks occur as the content flows from page to page. */
 
 h1,h2,h3,h4,h5 {
 	font-weight: bold;
